@@ -1,0 +1,17 @@
+/* no html is allowed in here! */
+
+/* this is how you make a comment in css */
+h1 {color:dodgerblue;}
+/* don't forget the semicolons at the end */
+p, h2 {
+    /* font-size: 300%; 
+        font size by percentage, 3x default size */
+    color:blueviolet;
+    font-size: 1.5em; /* 50% bigger than default (1.5 times the default size)*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+p a {color:green}
+/* p is selector, color is property, blueviolet is value */
+#firstlink {color:darkorange}
+.redtext {color: red;}
