@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 7 Notes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <style>
+        h1{
+            color: #0000aa; /* hex colour, best to use with html (web dev standard & loads fastest) */
+            /* f is the highest value, a is a slightly darker version of f */
+            background-color: #d63e3e72;
+            font-family: 'Playfair Display', serif;
+        }
+        a{
+            color: #1717d1
+        }
+        a:hover { /* tag:pseudoclass */
+            color: #8e8ee0; /* pseudo class - when you mouse over the link */
+        }
+        body{
+            background-color: #a7e3a7;
+            background-image: url("../images/yeti.jpg");
+            background-size: 25%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-position: bottom right;
+        }
+        h1, a{
+            background-color: #d63e3e72;
+            /* the bg color for h1 goes the entire width because block tags are the width of the entire page */
+        }
+        h1, p, a{
+            border: 5px solid #ffffff; /*called a "grouped selector" because it takes multiple arguments*/
+            padding: 15px;
+            margin: 40px;
+        }
+        .p2{
+            margin: 100px 0px 0px 0px; /* top, right, bottom, left. clockwise through different sides */
+            padding-left: 90px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo Selectors, Box Model, & Hex Colours</h1>
+    <a href="http://www.cbs.com">CBS</a>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis commodi laborum molestiae accusamus ut sunt eos modi minus ullam provident labore, laudantium iure doloremque nam. Dicta neque asperiores alias accusantium!</p>
+    <p class="p2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo quod fugiat vitae eaque aut eveniet facilis dolore excepturi error distinctio quam libero tempore velit cupiditate exercitationem qui, ullam mollitia! Enim.</p>
+</body>
+</html>
