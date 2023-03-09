@@ -1,0 +1,29 @@
+body{
+background-color: #005F6B;
+font-family: 'Labrada', serif;
+}
+p {
+color: #000000;
+font-size: large;
+font-weight: thicker;
+}
+a{color: #0f5761}
+h1, h2, h3, h4, h5, h6{color: #00B4CC;} 
+nav{
+    background-color: #343838;
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 30px; 
+}
+nav a {color: #6cb4a1;}
+nav a:hover{background-color: #008C9E;}
+img{background-color: #ffffff;}
+.tagline{float: right;}
+.contact1, .contact2 {
+    display: flex;
+    padding: 20px;
+    background-color: #00B4CC;
+    border-radius: 1em;
+    margin: 20px;}
+.form, .name_address {flex:1; order:1; margin-left: 20px;}
+.email_linkedin, .map {flex:1; order:2;}
